@@ -1,0 +1,26 @@
+ar:
+  base:
+    not_authenticated: "غير قادر على مصادقة المستخدم"
+    login_required: "يتطلب هذا الطلب تسجيل الدخول"
+    not_authorized: "تم رفض الإذن"
+    not_processed: "غير قادر على معالجة الطلب"
+    invalid_foreign_key: "لا يمكن حذف هذا السجل بسبب وجود سجلات أخرى مرتبطة به. "
+    error_occurs: "حدث خطأ أثناء معالجة:٪ {message}"
+    debits: مدين
+    credits: دائن
+    account: الحساب
+
+  errors:
+    e_500: "خطأ في الخادم الداخلي"
+    e_404: "غير موجود"
+    e_400: "بعض العناصر مفقودة"
+    e_403: "غير مصرح لك بالدخول"
+    e_range_error: "الرقم طويل جدا"
+    e_invalid_time: "صيغة الوقت غير صحيحة"
+
+  resource:
+    record: 'السجل'
+    created: "تم أنشاء %{name} بنجاح"
+    updated: "تم تعديل %{name} بنجاح"
+    deleted: "تم حذف %{name} بنجاح"
+    e_default: "لايمكنك حذف او تعديل سجلات  %{name} الافتراضية"
